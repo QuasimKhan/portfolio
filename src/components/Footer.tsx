@@ -33,7 +33,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link href="https://linkedin.com/in/quasimkhan" target="_blank">
                   Contact Me
                 </Link>
               </li>
@@ -45,13 +45,7 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li>
-                <span className="block text-sm">Email: support@example.com</span>
-              </li>
-              <li>
-                <span className="block text-sm">Phone: +123 456 7890</span>
-              </li>
-              <li>
-                <span className="block text-sm">Address: 123 Street, City</span>
+                <span className="block text-sm">Email: quasimkhanpersonal@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -61,9 +55,10 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://linkedin.com/in/quasimkhan"
+                target="_blank"
                 className="hover:text-blue-400 transition"
-                aria-label="Twitter"
+                aria-label="linkedin"
               >
                 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -75,46 +70,7 @@ export default function Footer() {
 </svg>
 
               </a>
-              <a
-                href="#"
-                className="hover:text-blue-600 transition"
-                aria-label="Facebook"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17.657 16H14v-5h2.343M6 6v11h11m-7-8h8M3 3h18v18H3V3z"
-                  />
-                </svg>
-              </a>
-              <a
-                href="#"
-                className="hover:text-pink-500 transition"
-                aria-label="Instagram"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M8 11c0-1.105.894-2 2-2s2 .895 2 2-1.894 2-2 2-2-.895-2-2zM4 4h16v16H4V4zm4 2a4 4 0 000 8h8a4 4 0 000-8H8z"
-                  />
-                </svg>
-              </a>
+            
             </div>
           </div>
         </div>
