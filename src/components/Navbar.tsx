@@ -25,6 +25,12 @@ export default function Navbar() {
             <Link href="/about">
               About
             </Link>
+            <Link href="/projects">
+              Projects
+            </Link>
+            <Link href="https://linkedin.com/in/quasimkhan" target="_blank">
+              Contact Me 
+            </Link>
            
           </div>
 
